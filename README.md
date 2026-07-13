@@ -131,8 +131,3 @@ python pancancer_run.py --baseline-model-path ./input/test_model.pth --val-fold 
 The run time of the code depends on various factors, such as type of GPU, input size, batch size, number of images etc.
 In our test environment it took ~30 seconds to validate a model on an image with 1250 tiles.
 
-## Copyright 
-Copyright (c) 2022- Panakeia Technologies Limited
-
-## Licence
-Software licensed under GNU General Public License (GPL) version 3

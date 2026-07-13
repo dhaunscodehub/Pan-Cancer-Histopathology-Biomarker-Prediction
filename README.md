@@ -20,7 +20,7 @@ at least one GPU. The version of the libraries installed within our local test e
  are available at https://portal.gdc.cancer.gov/. 
 - As a pre-requisite, each WSI in the input dataset should be subdivided into patches (tiles).
 - Each tile should be of type `numpy.darray` and with a shape of (d x d x 3), where d is the width and 
-height of a patch and 3 is the number of channels.  
+height of a patch and 3 is the number of channels .
 - All tiles of an image should be appended into a list, which should then be packed into a python dict, where
  the key is set to `"img_patches"` as in `{"img_patches": [numpy.darray]}`.
 - Each tile dict should be stored as a pickled file. A pickled tile file's name should match the name of the
